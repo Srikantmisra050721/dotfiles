@@ -1,0 +1,4 @@
+- [ ] obsidian
+- [x] vimtex
+- [x] lsp
+- [ ] zen

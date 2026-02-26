@@ -7,6 +7,10 @@ return {
 
 		-- This enables "Continuous Compilation"
 		vim.g.vimtex_compiler_method = "latexmk"
-		vim.g.vimtex_compiler_latexmk = { build_dir = "build" }
+		vim.g.vimtex_compiler_latexmk = {
+			out_dir = "build",
+			aux_dir = "/home/oscar/.texfiles/",
+			out_dir = "/home/oscar/.texfiles/",
+		}
 	end,
 }

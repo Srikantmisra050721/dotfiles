@@ -40,8 +40,8 @@ keymap.set("n", "<leader>fk", "<cmd>Telescope keymaps<cr>", { desc = "Find todos
 --auto session
 keymap.set("n", "<leader>wr", "<cmd>AutoSession restore<CR>", { desc = "Restore session for cwd" })
 keymap.set("n", "<leader>ws", "<cmd>AutoSession save<CR>", { desc = "Save session for auto session root dir" })
-keymap.set("n", "<leader>ww", "<cmd>wa<CR>", { desc = "write all changes" })
-keymap.set("n", "<leader>wq", "<cmd>wqa<CR>", { desc = "write all changes and quit" })
+keymap.set("n", "<leader>ww", "<cmd>wa!<CR>", { desc = "write all changes" })
+keymap.set("n", "<leader>wq", "<cmd>wqa!<CR>", { desc = "write all changes and quit" })
 --zen
 
 keymap.set("n", "<leader>z", "<cmd>ZenMode<CR>", { desc = "write all changes and quit" })
